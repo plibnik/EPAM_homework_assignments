@@ -3,7 +3,7 @@
 * [Task 2](#task-2)
 * [Task 3](#task-3)
 
-The tasks are illustrated with multiple screenshots in folders Part1, Part2, Part3.
+The tasks are illustrated with multiple screenshots in folders Part1, Part2, Part3 in [Databases_homework](https://github.com/plibnik/EPAM_homework_assignments/tree/main/Databases_Homework) folder.
 
 ## Task 1
 
