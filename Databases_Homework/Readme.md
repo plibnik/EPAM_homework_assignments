@@ -1,7 +1,7 @@
 ## Table of contents
-* [Task 1](#task1)
-* [Task 2](#task2)
-* [Task 3](#task3)
+* [Task 1](#task-1)
+* [Task 2](#task-2)
+* [Task 3](#task-3)
 
 The tasks are illustrated with multiple screenshots in folders Part1, Part2, Part3.
 
