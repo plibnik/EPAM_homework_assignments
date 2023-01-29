@@ -1,7 +1,7 @@
 ## Table of contents
 * [Task 1](#task1)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Task 2](#technologies)
+* [Task 3](#setup)
 
 ## Task 1
 This project is simple Lorem ipsum dolor generator.
