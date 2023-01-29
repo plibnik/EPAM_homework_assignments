@@ -27,20 +27,20 @@ The tasks are illustrated with multiple screenshots in folders Part1, Part2, Par
 (DONE) 9. Make a selection from the main table DB MySQL.
 	
 ## Task 2
-(DONE) 10.Make backup of your database.
+(DONE) 10. Make backup of your database.
 
-(DONE) 11.Delete the table and/or part of the data in the table. 
+(DONE) 11. Delete the table and/or part of the data in the table. 
 
-(DONE) 12.Restore your database. 
+(DONE) 12. Restore your database. 
 
-(DONE) 13.Transfer your local database to RDS AWS. 
+(DONE) 13. Transfer your local database to RDS AWS. 
 * Done via EC2 host, SFTP/SCP transfer of local mysqldump file to EC2 host using PEM key, and then with mysql < dump.sql -h *RDS_host_name* inside my VPC
 
-(DONE) 14.Connect to your database.
+(DONE) 14. Connect to your database.
 
-(DONE) 15.Execute SELECT operator similar step 6.
+(DONE) 15. Execute SELECT operator similar step 6.
 
-(DONE) 16.Create the dump of your database.
+(DONE) 16. Create the dump of your database.
 
 	
 ## Task 3
