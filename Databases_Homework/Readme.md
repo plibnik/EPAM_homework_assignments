@@ -1,9 +1,9 @@
 ## Table of contents
 * [Task 1](#task1)
-* [Task 2](#technologies)
-* [Task 3](#setup)
+* [Task 2](#task2)
+* [Task 3](#task3)
 
-The tasks are illustrated with screenshots in folders Part1, Part2, Part3.
+The tasks are illustrated with multiple screenshots in folders Part1, Part2, Part3.
 
 ## Task 1
 
@@ -44,13 +44,13 @@ The tasks are illustrated with screenshots in folders Part1, Part2, Part3.
 
 	
 ## Task 3
-(NOT DONE) 17. Create a database. Use the use command to connect to a new database (If it doesn't exist, Mongo will create it when you write to it). 
+(**NOT DONE**) 17. Create a database. Use the use command to connect to a new database (If it doesn't exist, Mongo will create it when you write to it). 
 
-(NOT DONE) 18. Create a collection. Use db.createCollection to create a collection. I'll leave the subject up to you. Run show dbs and show collections to view your database and collections.
+(**NOT DONE**) 18. Create a collection. Use db.createCollection to create a collection. I'll leave the subject up to you. Run show dbs and show collections to view your database and collections.
 
-(NOT DONE) 19. Create some documents. Insert a couple of documents into your collection. I'll leave the subject matter up to you, perhaps cars or hats.
+(**NOT DONE**) 19. Create some documents. Insert a couple of documents into your collection. I'll leave the subject matter up to you, perhaps cars or hats.
 
-(NOT DONE) 20. Use find() to list documents out.
+(**NOT DONE**) 20. Use find() to list documents out.
 
 Server failed to start after successful install on Ubuntu 22.04.1 LTS. "Illegal instruction, core dumped". Same behavior on bare metal and in Oracle VirtualBox.
 But I've done very similar actions in December 2022 at https://learn.mongodb.com/learning-paths/introduction-to-mongodb , when studying the following units.
