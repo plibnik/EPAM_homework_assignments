@@ -13,7 +13,6 @@ function process_log () {
 		echo "File $1 does not exist. Terminating..."
 		exit 3
 	fi
-	
 }
 
 
