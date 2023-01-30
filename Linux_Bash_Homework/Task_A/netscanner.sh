@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+function print_usage_function () {
+        echo "Usage: netscanner.sh --all | --target [target]"
+}
+
 function all_function () {
 	echo "All function called"
 }
@@ -15,7 +19,7 @@ echo "Number of parameters: $#"
 echo "Parameter #1 is: $1"
 
 if (($# == 0)); then
-	echo "Usage: netscanner.sh --all | --target [target]"
+	print_usage_function;
 	exit 3
 
 elif [ $1 == "--all" ]; then
