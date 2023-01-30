@@ -16,4 +16,4 @@ All the screenshots for tasks 7..18 are located in the [following directory](htt
 
 There are TWO links to the web-sites: [this is a simple Lightsail demo static site](http://plibnik.pp.ua/) left after Task 12.
 
-And this [is a link to the website with my own photo, the name of the educational program (EPAM Cloud&DevOps Fundamentals Autumn 2022), the list of AWS services I've used] (http://www.plibnik.pp.ua/). This "www" subdomain is implemented with CNAME on Lightsail DNS from Task 12.
+And this [is a link to the website with my own photo, the name of the educational program (EPAM Cloud&DevOps Fundamentals Autumn 2022), the list of AWS services I've used](http://www.plibnik.pp.ua/). This "www" subdomain is implemented with CNAME on Lightsail DNS from Task 12.
