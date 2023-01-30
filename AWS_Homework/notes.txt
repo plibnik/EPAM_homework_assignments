@@ -4,5 +4,4 @@ In task 7 I've used Amazon Linux instead of Centos. But I have CentOS  on one of
 
 Instance was displayed in AWS Console as having "terminated" state after termination.
 
-
 Task 13 -- didn't delete the Lightsail (let it be, as a proof)
