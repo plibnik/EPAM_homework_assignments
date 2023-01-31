@@ -1,0 +1,284 @@
+    1  passwd
+    2  shutdown -h now
+    3  ipa
+    4  ip a
+    5  ifconfig
+    6  lspci
+    7  ip a
+    8  nano /etc/network/interfaces
+    9  ls
+   10  cd /et
+   11  cd /etc
+   12  cd network
+   13  ls
+   14  ls if-up.d/
+   15  if a; q
+   16  ip a
+   17  ip 2
+   18  ip enp2s0
+   19  ip link set dev enp2s0 up
+   20  ip a
+   21  ip link set dev enp1s0 up
+   22  ip a
+   23  lspci
+   24  dmesg | grep -i Compex
+   25  dmesg | grep enp
+   26  dhclient
+   27  ip a
+   28  ping 212.9.224.1
+   29  history | grep apt
+   30  ifconfig
+   31  apt install net-tools
+   32  apt list
+   33  apt list |g grep ssh
+   34  apt list | grep -i ssh
+   35  ssh 127.0.01
+   36  ssh 127.0.0.1
+   37  ssh plibnik@127.0.0.1
+   38  ls
+   39  shutdown -h now
+   40  hostname
+   41  cd /etc
+   42  cat host
+   43  cat hostname 
+   44  vi hostname 
+   45  reboot
+   46  iconfig
+   47  ifconfig
+   48  dmesg
+   49  ip a
+   50  dmesg | grep -i ether
+   51  dmesg | grep -i net
+   52  dmesg | grep -i nic
+   53  reboot
+   54  dmesg
+   55  iconfig
+   56  ifconig
+   57  ifconfig
+   58  dmesg | less
+   59  lspci
+   60  lsmod
+   61  ifconfig eth0
+   62  ifconfig en2sp1
+   63  lspci
+   64  dmesg
+   65  dmesg | grep ethernet
+   66  dmesg | grep -i net
+   67  ifp a
+   68  ifup
+   69  apt install ifupdown
+   70  ip a
+   71  ifconfig 
+   72  lspci
+   73  dmesg | grep -i ether
+   74  dmesg | grep -i net
+   75  lsmod
+   76  lsmod | less
+   77  dmesg
+   78  dmesg | grep -e enp
+   79  ifconfig enp2s0
+   80  ifconfig enp2s0 up
+   81  ifconfig enp1s0 up
+   82  ifconfig
+   83  ifconfig enp1s0 down
+   84  ifconfig enp2s0 down
+   85  ifconfig enp1s0 down
+   86  ifconfig enp1s0 up
+   87  ifconfig enp2s0 up
+   88  ifconfig
+   89  ifconfig enp1s0 down
+   90  ifconfig enp2s0 down
+   91  ifconfig
+   92  ifconfig enp2s0 up
+   93  ifconfig enp1s0 up
+   94  ifconfig
+   95  ifconfig enp2s0 down
+   96  ifconfig enp2s0 up
+   97  ip a
+   98  reboot
+   99  ip a
+  100  cat /etc/issue
+  101  clou
+  102  ls
+  103  cd /etc
+  104  cd cloud/
+  105  ls
+  106  cd cloud.cfg.d/
+  107  ls
+  108  vi 99-disable-network-config.cfg
+  109  cd /etc
+  110  cd netplan/
+  111  ls
+  112  vi 01-netcfg-yaml
+  113  ip
+  114  sudo netplan apply
+  115  ip a
+  116  ifconfig 
+  117  ifconfig enp1s0 up
+  118  ifconfig 
+  119  ifconfig enp1s0 10.81.18.100/24
+  120  ifconfig
+  121  ping 10.81.18.1
+  122  reboot
+  123  ip a
+  124  lspci
+  125  dmesg | grep -i realtek
+  126  dmesg | grep -i Compex
+  127  dmesg | grep -i eth
+  128  ls
+  129  ip a
+  130  ipconfig enp1s0 up
+  131  ifconfig enp1s0 up
+  132  ip a
+  133  ifconfig enp2s0 10.81.18.100/24
+  134  ping 10.81.18.1
+  135  arp -a
+  136  ifconfig
+  137  ip a
+  138  ping 10.81.18.100
+  139  ping 10.81.18.1
+  140  ifconfig enp2s0 10.8.81.100/24
+  141  ping 10.8.81.1
+  142  ping 10.8.81.2
+  143  ping 10.8.81.3
+  144  reboot
+  145  ip a
+  146  ifconfig
+  147  dmesg
+  148  ifconfig -a
+  149  ip link
+  150  ip link show
+  151  ifconfig enp2s0 10.81.18.101
+  152  ifconfig enp2s0 10.81.18.101/24
+  153  ping 10.81.18.1
+  154  ifconfig enp2s0 down
+  155  ifconfig enp3s0 10.81.18.102/24
+  156  ifconfig enp3s0 
+  157  ifconfig enp1s0
+  158  dmesg
+  159  lspci
+  160  shutdown -h now
+  161  ip a
+  162  ifconfig enp1s0 10.81.18.101/24
+  163  ping 10.81.18.1
+  164  cat /etc/issue
+  165  ls
+  166  ifconfig 
+  167  cd /etc
+  168  cd /netplan
+  169  cd netplan/
+  170  ls
+  171  cat 01-netcfg-yaml 0
+  172  ls
+  173  cat 01-netcfg-yaml 
+  174  sudo netplan apply
+  175  ip a
+  176  ls
+  177  vi 01-netcfg-yaml 
+  178  sudo netplan apply
+  179  dmesg
+  180  ip a
+  181  reboot
+  182  ip a
+  183  sudo lshw -class etwork
+  184  sudo lshw -class network
+  185  ifconfig enp1s0 10.81.18.253/24
+  186  ping 10.81.18.1
+  187  ip addr flush enp1s0
+  188  ping 10.81.18.1
+  189  cd /etc/netplan
+  190  vi 99_config_yaml
+  191  vim 99_config.yaml
+  192  sudo netplan apply
+  193  ip a
+  194  ip addr add 10.81.18.111/24 enp1s0
+  195  ip addr add 10.81.18.111/24 dev enp1s0
+  196  ping 10.81.18.1
+  197  ip addr flush enp1s0
+  198  ping 10.81.18.1
+  199  ip addr add 10.81.18.111/24 dev enp1s0
+  200  ip addr flush enp1s0
+  201  dhclient
+  202  ip a
+  203  ping 10.8.81.128
+  204  ping 10.8.81.1
+  205  ip a
+  206  ip a enp1s0
+  207  ip a dev enp1s0
+  208  ip a help
+  209  ip a dev enp1s0
+  210  ip a show dev enp1s0
+  211  ip a show enp1s0
+  212  tracert 10.8.81.1
+  213  ip a show enp1s0
+  214  traceroute 10.8.81.1
+  215  apt install traceroute
+  216  reboot
+  217  uo a
+  218  ip a
+  219  uptime 
+  220  history | tail 10
+  221  history | tail -n 10
+  222  ip a
+  223  ls
+  224  history
+  225  history | less
+  226  cd /etc/netplan/
+  227  l
+  228  vim 99_config.yaml 
+  229  history
+  230  history | less
+  231  sudo netplan apply
+  232  ip a
+  233  ping 172.16.18.2
+  234  ip addr
+  235  ifconfig lo:
+  236  ifconfig 
+  237  ifconfig docker0 down
+  238  ifconfig
+  239  ifconfig lo:0 172.17.28.1/24 netmask 255.255.255.0 up
+  240  ifconfig lo:1 172.17.38.1/24 netmask 255.255.255.0 up
+  241  ifconfig
+  242  ping 172.17.28.1
+  243  ping 172.17.38.1
+  244  ssh -l plibnik 10.81.18.1
+  245  ssh -l plibnik 172.168.18.1
+  246  ssh -l plibnik 10.81.18.2
+  247  ssh -l plibnik 172.168.18.2
+  248  ip a
+  249  ping 10.81.18.1
+  250  ip a
+  251  ping 172.16.18.2
+  252  ssh 172.16.18.2
+  253  ip a
+  254  ssh localhost -l plibnik
+  255  ip a
+  256  tcpdump icmp
+  257  ip 
+  258  ip a
+  259  history | grep lo
+  260  ifconfig lo:0 172.17.28.1/24 netmask 255.255.255.0 up
+  261  ifconfig lo:1 172.17.38.1/24 netmask 255.255.255.0 up
+  262  ssh 10.81.18.1
+  263  ssh -l plibnik 10.81.18.1
+  264  wget
+  265  wget 212.9.224.1
+  266  ping 8.8.8.8
+  267  apt-get update 
+  268  ls
+  269  cd ~
+  270  ls
+  271  history > client1_history
+  272  ls -l client1_history 
+  273  dmesg
+  274  journalctl
+  275  journalctl 20
+  276  journalctl -20
+  277  journalctl -n 20
+  278  lsusb
+  279  ssh 10.81.18.1
+  280  scp
+  281  scp client1_history plibnik@10.81.18.1:/
+  282  scp ./client1_history plibnik@10.81.18.1:/
+  283  ssh -l plibnik 10.81.18.1
+  284  history > client1_history 

@@ -1,0 +1,4 @@
+had to disable cloud-init and enable netplan on server (ubuntu) and client1 (ubuntu)
+
+I do not use dirty root logins usually, honestly!
+I disallow SSH root logins, via parameter in sshd.conf! 

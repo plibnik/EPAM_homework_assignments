@@ -1,0 +1,189 @@
+    1  dmesg
+    2  ifconfig 
+    3  ip show
+    4  ip
+    5  ip a
+    6  shutdown -h now
+    7  dmesg
+    8  ifconfig 
+    9  dmesg | less
+   10  lspci
+   11  shutdown -h now
+   12  ifconfig 
+   13  lspci
+   14  shutdown -h now
+   15  dmesg
+   16  dmesg | grep -i ether
+   17  dmesg | grep -i NIC
+   18  lspci
+   19  ifconfig 
+   20  ip a
+   21  shutdown -h now
+   22  cd /etc/
+   23  vi hostname 
+   24  :wq
+   25  rebooty
+   26  reboot
+   27  ifconfig 
+   28  ifconfig enp3s0 up
+   29  ifconfig enp2s0 up
+   30  ifconfig
+   31  ifconfig enp2s0 down
+   32  ifconfig enp3s0 down
+   33  ifconfig
+   34  ifconfig enp2s0 up
+   35  ifconfig enp3s0 up
+   36  reboot
+   37  ip a
+   38  reboot
+   39  ip a
+   40  dmesg | grep -i enp2
+   41  dmesg | grep eth0
+   42  dmesg | grep -i enp3
+   43  dmesg | grep -i enp2
+   44  dmesg | less
+   45  :q
+   46  lspci
+   47  dmesg | grep -i qual
+   48  dmesg | grep -i Ehter
+   49  dmesg | grep -i Ether
+   50  lspci
+   51  dmesg | less
+   52  lsmod
+   53  lspci
+   54  ifconfig
+   55  dmesg | grep -i enp3
+   56  ifconfig enp3s0 up
+   57  ifconfig
+   58  dmesg
+   59  ifconfig
+   60  ifconfig enp2s0 10.8.81.100/24
+   61  ping 10.8.81.1
+   62  ifconfig
+   63  arp -a
+   64  tcpdump -i enp2s0
+   65  tcpdump -i enp3s0
+   66  tcpdump -i enp2s0
+   67  reboot
+   68  ip a
+   69  ping 10.8.81.1
+   70  ping 10.81.18.1
+   71  ip a
+   72  ls
+   73  cd /etc/netplan
+   74  cd /etc
+   75  ls
+   76  history 
+   77   
+   78  ls
+   79  cd /etc/sysconfig/
+   80  ls
+   81  cd network-scripts/
+   82  ls
+   83  cat ifcfg-enp2s0 
+   84  cp ifcfg-enp2s0 ifcfg-enp3s0
+   85  vi ifcfg-enp3s0 
+   86  Lwq
+   87  ls
+   88  cat ifcfg-enp3s0 
+   89  systemctl restart
+   90  mv ifcfg-enp3s0 ~/
+   91  systemctl restart
+   92  mv ~/ifcfg-enp3s0 .
+   93  nmcli dev show
+   94  qreboot
+   95  ls
+   96  ip a
+   97  nmtui
+   98  cd /etc
+   99  history
+  100  cd /etc/
+  101  ls
+  102  cd sysconfig/
+  103  cd network-scripts/
+  104  ls
+  105  vi ifcfg-enp
+  106  vi ifcfg-enp3s0 
+  107  reboot
+  108  ip a
+  109  ssh -l plibnik 10.81.18.1
+  110  ip a
+  111  ssh -l plibnik 10.81.18.1
+  112  dmesg
+  113  ssh 10.8.81.1
+  114  ssh 10.81.18.128
+  115  ssh -l pibnik 10.81.18.128
+  116  ping 10.81.18.128
+  117  ufw disable
+  118  ssh 10.8.81.1
+  119  ssh 10.8.81.128
+  120  ssh 10.8.81.1
+  121  echo "timeout!"
+  122  ufw disable
+  123  ip a
+  124  route
+  125  route -n
+  126  route add 172.17.28.1/24 10.8.81.1
+  127  route add
+  128  man route
+  129  q
+  130  ip route add 172.17.28.1/24 via 10.8.81.1 dev enp2s0
+  131  ip route add 172.17.28.1 via 10.8.81.1 dev enp2s0
+  132  ip route add 172.17.28.1 via 172.16.18.1 dev enp3s0
+  133  ip route add 172.17.38.1 via 172.16.18.1 dev enp3s0
+  134  ping 172.17.38.1
+  135  ping 172.17.28.1
+  136  traceroute 172.17.28.1
+  137  ping 212.9.224.1
+  138  mtr
+  139  mtr 172.17.28.1
+  140  q
+  141  mtr 172.17.38.1
+  142  mtr 172.17.28.1
+  143  history 10
+  144  history 20
+  145  ip route del 172.17.28.1/24
+  146  ip route del 172.17.28.1
+  147  ip route del 172.17.38.1
+  148  ip route add 172.17.0.0/14 via 10.8.81.1 dev enp3s0
+  149  ip route add 172.17.0.0/14 via 10.8.81.1 dev enp2s0
+  150  ip route add 172.17.0.0/18 via 10.8.81.1 dev enp2s0
+  151  history 10
+  152  ssh 10.8.81.1
+  153  ssh -u plibnik 10.8.81.1
+  154  ssh -l plibnik 10.8.81.1
+  155  ssh -l plibnik 172.16.18.1
+  156  ls
+  157  ssh 127.0.0.1
+  158  ip a
+  159  ssh 10.8.81.128
+  160  ssh 172.16.18.2
+  161  ssh 10.8.81.1
+  162  echo "UFW firewall blocks connections!"
+  163  ssh 10.8.81.1
+  164  ssh -l plibnik 10.8.81.1
+  165  ip a
+  166  ping 172.17.28.1
+  167  route get
+  168  route show
+  169  ip route
+  170  ping 172.17.28.1
+  171  ping 172.17.38.1
+  172  ping 172.17.28.1
+  173  ping 172.17.38.1
+  174  ping 172.17.28.1
+  175  ip a
+  176  ping 172.17.28.1
+  177  ping 172.17.38.1
+  178  ssh -l plibnik 10.8.81.1 
+  179  ping 
+  180  ping google.com
+  181  mtr google.com
+  182  ip route get google.com
+  183  ip route get
+  184  ip route get 8.8.8.8
+  185  ping 8.8.8.8
+  186  echo "I've just added -j MASQUERADE on server1!"
+  187  yum update
+  188  dmesg
+  189  history > client2_history

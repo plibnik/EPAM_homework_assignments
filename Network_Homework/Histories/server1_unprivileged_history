@@ -1,0 +1,12 @@
+    1  sudo bash
+    2  ipconfig
+    3  ifconfig
+    4  ip a
+    5  echo "After ufw disable on Server1 I can log in!"
+    6  sudo bash
+    7  sudo ufw status numbered
+    8  ip enp0s3 up
+    9  ip link enp0s3 up
+   10  ip link help
+   11  sudo bash
+   12  history > server1_unprivileged_history
