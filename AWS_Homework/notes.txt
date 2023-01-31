@@ -1,0 +1,7 @@
+The instance was t2.micro, to fit into Free Tier
+
+In task 7 I've used Amazon Linux instead of Centos. But I have CentOS  on one of my final project non-virtual machines! (CentOS Stream 8, to be accurate).
+
+Instance was displayed in AWS Console as having "terminated" state after termination.
+
+Task 13 -- didn't delete the Lightsail (let it be, as a proof)
