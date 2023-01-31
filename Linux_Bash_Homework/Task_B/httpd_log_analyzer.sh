@@ -18,7 +18,7 @@ function process_log () {
 
 	echo "1. From which ip there were most requests?"
 	echo -n "Most popular request IP: "
-	cut -f 1 -d ' ' < $FILENAME | uniq -c | sort -nr | head -n 1 | cut -c 9-
+	grep '"GET ' < $FILENAME | cut -f 1 -d ' ' | uniq -c | sort -nr | head -n 1 | cut -c 9-
 
 
 	echo -e "\n2. What is the most requested page?"
@@ -26,7 +26,12 @@ function process_log () {
 	grep '"GET ' < $FILENAME | cut -d ' ' -f 7 | sort | uniq -c | sort -nr | head -n 1 | cut -c 9-
 # We filter only GET requests, not POST!
 
-
+	echo -e "\n3. How many requests were there from each ip?"
+	SHOW_TOP_IPS=5
+	#We can answer this question for ALL the IPs -- there may be hundreds of them! 
+	#If you want, set SHOW_TOP_IPS=9999999
+	echo "Top $SHOW_TOP_IPS IPs:" 
+	grep '"GET' < $FILENAME | cut -d ' ' -f 1 | sort | uniq -c | sort -nr | head -n $SHOW_TOP_IPS
 
 }
 
