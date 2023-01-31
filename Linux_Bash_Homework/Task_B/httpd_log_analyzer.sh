@@ -33,6 +33,23 @@ function process_log () {
 	echo "Top $SHOW_TOP_IPS IPs:" 
 	grep '"GET' < $FILENAME | cut -d ' ' -f 1 | sort | uniq -c | sort -nr | head -n $SHOW_TOP_IPS
 
+	echo -e "\n4. What non-existent pages were clients referred to?"
+	SHOW_MAX_NONEXISTENT=10
+	#Let's not show too many, if there are hundreds of them?
+	echo -e "Showing at most $SHOW_MAX_NONEXISTENT 404 pages:\n"
+	grep -P '"GET .+" 404'  < $FILENAME | cut -d ' ' -f 7 | head -n $SHOW_MAX_NONEXISTENT
+	echo "That's it for 404 pages"
+
+	echo -e "\n5. What time did site get the most requests?"
+	SHOW_MAX_TIMES=5
+	#Suppose we do not call any second in time a "time"? Suppose the task meant "hours and minutes"?
+	#It's the most illustrative, but we can change cut from "-f 2,3" to "-f 2" to consider only hours
+	cut -d ":" -f 2,3 < $FILENAME | sort | uniq -c | sort -nr | head -n $SHOW_MAX_TIMES
+
+	echo -e "\n6. What search bots have accessed the site? (UA + IP)"
+	# Right now I'm making only UA search, it seems to be incomplete and I must debug it; I will add  join/paste later today
+	cut -d ' ' -f 14 < apache_logs.txt | grep -i bot | sort | uniq
+
 }
 
 
