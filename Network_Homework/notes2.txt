@@ -1,0 +1,31 @@
+може бути, що це чисто інфраструктурний проект (зроблений не на Дженкінсі, а на іншому менеджері CI/CD)
+
+гіт комміт тригерить Дженкінс... дженкінс починає збирання... а як про це інформування йде?
+
+
+я думав, що 2 етапи -- окремо розгортання інфраструктури, окремо розгортання коду -- це краще показати, що ми можемо і те, і те?
+
+
+зміна одного не запускає іншого
+Make Menuconfig? -- в сенсі які частини змінені, ті і компіляє
+кернел **велиииикий**
+
+
+от мій апплікейшен на параметри інфраструктури зав"язаний, саме якщо у мене є і хмара, і пара фізичних хостів, причому за умови працюючі інстанси апплікейшена кожен знає про інші, і "хто я?", і "хто вони"
+то отже я тоді маю один репозиторій з двома частинами? "і змінні інфраструктури, втч як результати компіляції, будуть передаватися в апплікейшен"
+
+
+https://www.reddit.com/r/devops/comments/xvhuse/tech_world_with_nana_opinions/
+
+
+https://www.reddit.com/r/devops/comments/xu9n66/monthly_getting_into_devops_thread_202209/
+
+https://www.reddit.com/r/devops/comments/xvhuse/comment/ir1ge1f/
+
+https://www.reddit.com/r/devops/comments/xvhuse/comment/ir2hbu0/
+
+https://www.reddit.com/r/devops/comments/10njapx/are_there_any_advanced_jenkins_scripted_pipeline/
+
+https://www.reddit.com/r/devops/comments/10pwg7x/devops_learning/
+
+https://www.reddit.com/r/devops/comments/10lur9u/anyone_here_burned_out_how_do_you_deal_with_it/
